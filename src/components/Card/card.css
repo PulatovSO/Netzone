@@ -1,0 +1,74 @@
+.card {
+  margin-bottom: 50px;
+  padding: 0 15px;
+  flex-basis: 20%;
+  height: 370px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.card-rating {
+  padding: 3px 5px;
+  position: absolute;
+  top: 8px;
+  right: 7px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  background: #fb0000;
+  border-radius: 3px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-title {
+  margin-top: 10px;
+  display:inline-block;
+  position: relative;
+  width: 200px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+  z-index: 10;
+}
+
+.card-play-wrap {
+  position: absolute;
+  background: #00000094;
+  width: 0%;
+  height: 00%;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.card-play {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+}
+
+.card:hover .card-play-wrap {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  opacity: 1;
+}

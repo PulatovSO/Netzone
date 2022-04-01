@@ -1,0 +1,154 @@
+
+.movie {
+  font-family: Roboto;
+}
+
+.movie-poster {
+  position: relative;
+}
+
+.movie-info {
+  padding-left: 232px;
+  padding-bottom: 104px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(22, 21, 29, 0) 0%, rgba(22, 21, 29, 0.8) 48.31%, #16151D 100%);
+}
+
+
+.movie-image {
+  width: 100%;
+}
+
+.movie-title {
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.movie-tagline {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.movie-info p {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.movie-info-heading {
+  font-size: 14px;
+  line-height: 20px;
+  color: #d1d1d6;
+}
+
+.movie-info-desc {
+  margin-left: 43px;
+}
+
+.movie-buttons {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.movie-btn {
+  padding: 15px 24px;
+  padding-left: 60px;
+  position: relative;
+  display: inline-flex;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.watch-btn {
+  margin-right: 32px;
+  background: #ff0000;
+}
+
+.movie-btn:hover {
+  opacity: 0.8;
+}
+
+.movie-btn i {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  font-size: 30px;
+}
+
+.fav-btn {
+  background: #3c3c4399;
+}
+
+.fav-btn:hover {
+  background: #2b2b2f;
+}
+
+/* ============================ */
+
+.movie-imdb-wrap span {
+  margin-right: 25px;
+}
+
+.imdb-year {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.imdb-rating {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* ============================ */
+
+
+.movie-desc {
+  padding: 48px 10px;
+  display: flex;
+}
+.overview-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 124px;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.overview {
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+
+/* ===================== */
+.similar-movies {
+  margin-top: 80px;
+}
+
+.similar-heading {
+  margin-bottom: 25px;
+}
+
+.similar-row {
+  display: flex;
+}
+
